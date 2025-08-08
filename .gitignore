@@ -1,0 +1,24 @@
+# 环境变量文件
+.env
+
+# 依赖目录
+node_modules/
+
+# 日志文件
+*.log
+
+# IDE 配置
+.vscode/
+.idea/
+
+# Mac系统文件
+.DS_Store
+
+# 只保留指定文件
+/*
+!package.json
+!package-lock.json
+!server.js
+!.gitignore
+!README.md
+!.env.example
